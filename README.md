@@ -11,7 +11,6 @@ public:
     vector<string> tools;
 
     struct Contact {
-        string discord;
         string email;
     } contact;
 
@@ -21,7 +20,7 @@ public:
         frontend = {"Vue.js", "HTML5", "CSS3"};
         backend = {"Express.js", "MongoDB", "MySQL"};
         tools = {"Linux", "Android", "Electron", "Unity"};
-        contact = {"dewarexd", "deware@proton.me"};
+        contact = {"deware@proton.me"};
     }
 };
 ```
